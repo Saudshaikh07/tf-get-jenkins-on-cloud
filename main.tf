@@ -19,7 +19,7 @@ resource "aws_instance" "project_demo" {
               #!/bin/bash
               sudo apt-get update
               sudo apt-get install -y ansible
-              git clone https://github.com/javeedsocial/setup-jenkins-ubuntu20.git
+              git clone https://github.com/Saudshaikh07/setup-jenkins-ubuntu20.git
               sudo ansible-playbook setup-jenkins-ubuntu20/setup-jenkins.yaml
               EOF
 
